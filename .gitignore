@@ -1,0 +1,10 @@
+__pycache__/
+glow_1D/__pycache__/
+data_preprocessing/__pycache__/
+testing/__pycache__/
+
+testing/results/
+testing/figures/
+
+env/
+
