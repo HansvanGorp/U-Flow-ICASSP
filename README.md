@@ -23,7 +23,7 @@ To verify if recordings have been downloaded and preprocessed correctly, run:
 ```
 python dataloading.py -data_loc="target_folder"
 ```
-It should then list how many recordings where found by the dataloader.
+It should then list how many recordings were found by the dataloader.
 
 ## Testing
 The provided model checkpoints and additional models can be tested in terms of their KL-divergence on overnight sleep statistics, accuracy and kappa, and visual inspection via plots.

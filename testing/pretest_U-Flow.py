@@ -42,7 +42,7 @@ if __name__ == "__main__":
     no_samples = 100
     
     # %% load statedicts
-    args2        = torch.load(f"..//callbacks//{args.save_name}//args.tar")
+    args2        = torch.load(f"..//checkpoints//{args.save_name}//args.tar")
     state_dict_encoder  = torch.load(f"..//checkpoints//{args.save_name}//encoder.tar")
     state_dict_decoder  = torch.load(f"..//checkpoints//{args.save_name}//decoder.tar")
     
